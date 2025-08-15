@@ -5,7 +5,7 @@
 echo "🔧 Iniciando configuração do Git..."
 
 # Solicita nome e e-mail do usuário
-read -p "Digite seu nome completo para o Git: " username
+read -p "Digite seu nome de usuário para o Git: " username
 read -p "Digite seu e-mail para o Git: " useremail
 
 # Aplica as configurações globais
@@ -39,3 +39,4 @@ git config --list
 
 # Mensagem final
 echo -e "\n📌 Dica: você pode usar 'git cf' para fazer fetch + commit automaticamente (alias criado)."
+
